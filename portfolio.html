@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+  <div class="hero">
+    <div class="top-bar">
+      <div class="container">
+        <header>
+          <nav class="navbar">
+            <div class="logo"><h1>Shreyas H Reddy</h1></div>
+            <ul class="nav-list">
+              <li><a href="#about" class="nav-link">About Me</a></li>
+              <li><a href="#skills" class="nav-link">My Skills</a></li>
+              <li><a href="#projects" class="nav-link">My Projects</a></li>
+              <li><a href="#contact" class="nav-link">Contact Me</a></li>
+            </ul>
+          </nav>
+          <hr>
+          <hr>
+        </header>
+      </div>
+    </div>
+
+    <div class="container about-section" id="about">
+      <img src="port.JPG" alt="Your Picture" class="profile-picture">
+      <div class="about-me">
+        <h2>About Me</h2>
+        <p>Hey! I am Shreyas H Reddy, a very determined and passionate full-stack developer,
+                        programmer and AI & ML engineer .</p>
+        <p>
+          My entry into the world of programming and full-stack programming started with a curiosity 
+                        and a zeal to explore and master the skill.</p>
+        <p>
+          Ofcourse mastering these skills posed a great challenge,and to overcome that challenge
+          made this journey even more fruitful.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" id="home">
+    <h2>Welcome to My Portfolio</h2>
+    <p>
+      Thank you for visiting my portfolio website. Feel free to scroll through my webpage to know more about me, my skills,
+      and how to get in touch.
+    </p>
+  </div>
+
+  <div class="container" id="skills">
+    <h2>My Skills</h2>
+    <ul class="skills-list">
+      <li>
+        <span class="skill-name">HTML5</span>
+        <div class="progress-bar" data-percent="90"></div>
+      </li>
+      <li>
+        <span class="skill-name">CSS3</span>
+        <div class="progress-bar" data-percent="85"></div>
+      </li>
+      <li>
+        <span class="skill-name">JavaScript</span>
+        <div class="progress-bar" data-percent="80"></div>
+      </li>
+      <li>
+        <span class="skill-name">Node.js</span>
+        <div class="progress-bar" data-percent="75"></div>
+      </li>
+      <li>
+        <span class="skill-name">Machine Learning</span>
+        <div class="progress-bar" data-percent="80"></div>
+      </li>
+      <li>
+        <span class="skill-name">Machine Learning</span>
+        <div class="progress-bar" data-percent="80"></div>
+      </li>
+      <li>
+        <span class="skill-name">Artificial Intelligence</span>
+        <div class="progress-bar" data-percent="70"></div>
+      </li>
+      <li>
+        <span class="skill-name">Data Science</span>
+        <div class="progress-bar" data-percent="70"></div>
+      </li>
+      <li>
+        <span class="skill-name">C</span>
+        <div class="progress-bar" data-percent="90"></div>
+      </li>
+      <li>
+        <span class="skill-name">Java</span>
+        <div class="progress-bar" data-percent="80"></div>
+      </li>
+      <li>
+        <span class="skill-name">Python</span>
+        <div class="progress-bar" data-percent="90"></div>
+      </li>
+    </ul>
+  </div>
+
+  <div class="container" id="projects">
+    <h2>My Projects</h2>
+    <h3>Project 1:Vaccine Temperature Management Using IoMT</h3>
+       <p>Inadequate temperature management can lead to vaccine efficacy loss,
+        rendering vaccines ineffective and potentially harmful. This problem can result in public
+        health crises, reduced vaccination coverage, and increased healthcare costs due to vaccine
+        wastage and vaccine-preventable diseases.</p>
+        <p>The aim of the project was to establish a comprehensive and robust vaccine temperature
+          management system that ensures the consistent maintenance of the recommended
+          temperature range for vaccines at every stage of the supply chain.</p>
+    <h3>Project 2: Inventory Management Database Using MySQL</h3> 
+       <p>Using a manual system, which is prone to errors, time-consuming, and lacks real-time insights. 
+      The company deals with various products, suppliers, and customers. </p>
+       <p>I was entitled to provide a robust,reliable,efficient solution to the problem and
+      provide a better understanding of the relation between various departments of the 
+      supply chain using MySQL.
+          </p>
+    </div>   
+
+  <div class="container" id="contact">
+    <h2>Contact Me</h2>
+    <form action="#" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Your Name">
+
+      <label for="contact-number">Contact Number:</label>
+      <input type="text" id="contact-number" name="contact-number" placeholder="Your Contact Number">
+
+      <label for="feedback">Feedback:</label>
+      <textarea id="feedback" name="feedback" placeholder="Your Feedback"></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <div class="reach-me">
+      <h3>Feel Free to Reach Me:</h3>
+      <p>Email: shreyasreddy097@gmail.com</a></p>
+      <p>Phone: +91 9845928234</p>
+      <p>WhatsApp: +91 9845928234</p>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Shreyas H Reddy</p>
+    </div>
+  </footer>
+
+  <script>
+    // Optional: Add smooth scrolling functionality using JavaScript
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+</body>
+</html>
